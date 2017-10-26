@@ -2,15 +2,51 @@
   display: flex;
   justify-content: space-around;
   padding: 20px;
+  justify-content: center;
 }
 .blurb{
   padding: 20px;
   font-size: 30px;
   text-align: center;
 }
+.fa-github{
+    padding: 40px;
+}
+.fa-linkedin{
+  padding: 40px;
+}
+.fa-instgram{
+  padding: 40px;
+}
+.page-section{
+  text-align: center;
+}
+.cd-section{
+  height: 100vh;
+}
+
+[data-animation="scaleDown"] .cd-section > div {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+[data-animation="scaleDown"] .cd-section:first-of-type > div{
+  background-image: linear-gradient(to bottom, #880e4f, #d81b60 100%);
+}
+[data-animation="scaleDown"] .cd-section:nth-of-type(2) > div {
+  background-image: linear-gradient(to bottom, #880e4f, #d81b60 100%);
+}
+[data-animation="scaleDown"] .cd-section:nth-of-type(3) > div {
+  background-image: linear-gradient(to bottom, #880e4f, #d81b60 100%);
+}
+[data-animation="scaleDown"] .cd-section:nth-of-type(4) > div {
+  background-image: linear-gradient(to bottom, #880e4f, #d81b60 100%);
+}
+[data-animation="scaleDown"] .cd-section:nth-of-type(5) > div {
+  background-image: linear-gradient(to bottom, #880e4f, #d81b60 100%);
+}
 body{
   background-color: #880e4f;
-  background-image: linear-gradient(to bottom, #880e4f, #d81b60 100%);
   background-attachment: fixed;
   /*text-align: center;*/
   padding: 70px 0;
@@ -52,6 +88,8 @@ h2{
 }
 h3{
   color: #ffffff;
+  text-decoration: underline;
+  padding: 10px;
 }
 h4{
   text-align: center;
@@ -60,6 +98,5 @@ h4{
   padding: 10px;
 }
 footer{
-  display: flex;
-  text-align: right;
+
 }

@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <script src="https://use.fontawesome.com/19069a5ef6.js"></script>
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>Netsuhe</title>
     <link href="https://fonts.googleapis.com/css?family=Athiti|Megrim" rel="stylesheet">
-    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
+    <title>Netsuhe</title>
   </head>
-  <body data-hijacking="on" data-animation="scaleDown">
+  <body data-hijacking="off" data-animation="scaleDown">
       <section class="cd-section visible">
         <div class="first-page">
           <div class="container" >
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-              <h4><a class="navbar-brand" href="page-two">About</a></h4>
-              <h4><a class="navbar-brand" href="page-three">Projects</a></h4>
-              <h4><a class="navbar-brand" href="page-four">Contact</a></h4>
+              <h4><a class="navbar-brand" href="#page-two">About</a></h4>
+              <h4><a class="navbar-brand" href="#page-three">Projects</a></h4>
+              <h4><a class="navbar-brand" href="#page-four">Contact</a></h4>
             </nav>
           </div>
           <div class="blurb">
@@ -29,9 +31,11 @@
           </div>
         </div>
         </section>
-      <a href="page-two">
+      <a href="page-two" name="page-two"></a>
         <section class="cd-section">
+          <a href="page-two"></a>
           <div class="container">
+            <a href="page-two"></a>
             <h3>ABOUT ME</h3>
             <img src="/Users/Netsuhe/wdi/projects/netsuhe.github.io/image/headshot.JPG" class="img-thumbnail" alt="Responsive image">
             <p>
@@ -48,40 +52,27 @@
             </p>
           </div>
         </section>
-      </a>
-      <a href="page-three"></a>
+      <a href="page-three" name="page-three"></a>
         <section class="cd-section">
           <a href="page-three"></a>
           <div class="container">
+            <a href="page-three"></a>
             <h3>PROJECTS</h3>
             <p>
               SCREEN SHOTS OF MY PROJECTS GO HERE!
             </p>
           </div>
         </section>
-      <a href="page-four"></a>
+      <a href="page-four" name="page-four"></a>
         <section class="cd-section">
           <a href="page-four"></a>
           <div class="container">
+            <a href="page-four"></a>
             <h3></h3>
-            <a href="https://github.com"><i class="fa fa-github fa-5x" aria-hidden="true" title="link to github"></i></a>
+            <a href="https://github.com/netsuhe"><i class="fa fa-github fa-5x" aria-hidden="true" title="link to github"></i></a>
             <a href="https://www.linkedin.com/in/netsuhebekele/"><i class="fa fa-linkedin fa-5x" aria-hidden="true" title="link to linkedin"></i></a>
             <a href="https://www.instagram.com/netsuheb/"><i class="fa fa-instagram fa-5x" aria-hidden="true" title="link to instagram"></i></a>
           </div>
         </section>
-      <script src="script.js"></script>
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-    <!-- <footer class="footer-container">
-      <div>
-        <p>
-          © 2017
-        </p>
-        <p class="name">
-          Netsuhe Bekele
-        </p>
-      </div>
-    </footer> -->
   </body>
 </html>

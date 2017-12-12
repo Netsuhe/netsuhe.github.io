@@ -1,10 +1,5 @@
 .nav-bar{
 }
-.blurb{
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-}
 .fa-github{
     padding: 40px;
 }
@@ -16,8 +11,24 @@
 }
 .cd-section{
   height: 100vh;
+  display: flex;
 }
-
+#blurb{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+#contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*flex-direction: row;*/
+}
+#about-me{
+  display: flex;
+  align-items: flex-end;
+  font-size: 20px;
+}
 [data-animation="scaleDown"] .cd-section > div {
   background-position: center center;
   background-repeat: no-repeat;
@@ -52,8 +63,8 @@ img{
   float: left;
   display: block;
   margin: auto;
-  height: 150px;
-  width: 150px;
+  height: 450px;
+  width: 450px;
 
 }
 p{
@@ -67,13 +78,17 @@ flex-wrap: wrap;
 a{
   color:#ffffff;
 }
+h1{
+  font-family: 'Megrim', cursive;
+  color:#ffffff;
+}
 h2{
   color:#ffffff;
   text-align: center;
   /*font-family: 'Libre Barcode 128 Text', cursive;*/
   font-family: 'Megrim', cursive;
   padding: 70px 0;
-  font-size: 70px;
+  font-size: 90px;
   border: 40px;
   /*display: flex;
   align-items: baseline;*/
@@ -90,6 +105,11 @@ h4{
   font-family: 'Megrim', cursive;
   padding: 10px;
 }
-footer{
-
+h5{
+  font-family: 'Megrim', cursive;
+  color:#ffffff;
+}
+h6{
+  font-family: 'Megrim', cursive;
+  color:#ffffff;
 }
